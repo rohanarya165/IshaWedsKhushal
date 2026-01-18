@@ -144,9 +144,9 @@ const Details: React.FC = () => {
             </div>
             <h3 className="text-2xl font-heading mb-3">Where</h3>
             <div className="divider-sm"></div>
-            <p className="font-body text-gray-700">The Rosewood Estate</p>
-            <p className="font-body text-gray-700 mt-1">123 Blossom Way</p>
-            <p className="font-body text-gray-700">Lakeside, CA 92040</p>
+            <p className="font-body text-gray-700">Pearl Green Ocean Pearl Marriage Garden</p>
+            <p className="font-body text-gray-700 mt-1">CAT Rd, near Shiv Shakti Petrol Pump, Parmanu Nagar</p>
+            <p className="font-body text-gray-700">Indore, Madhya Pradesh 452013</p>
           </motion.div>
 
           <motion.div 
