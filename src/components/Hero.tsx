@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
         }}
       >
         <motion.p 
-          className="text-white font-body tracking-[0.3em] text-sm md:text-base mb-4"
+          className="text-white font-body tracking-[0.3em] text-sm md:text-base mb-8"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
@@ -38,7 +38,23 @@ const Hero: React.FC = () => {
   animate={{ opacity: 1, scale: 1 }}
   transition={{ duration: 1, delay: 0.7 }}
 >
-  Isha & Khushal
+  Isha
+</motion.h1>
+<motion.h1 
+  className="text-6xl md:text-7xl lg:text-8xl font-script text-[#d8bfd8] mb-6 leading-tight"
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1, delay: 0.7 }}
+>
+   & 
+</motion.h1>
+<motion.h1 
+  className="text-6xl md:text-7xl lg:text-8xl font-script text-[#d8bfd8] mb-6 leading-tight"
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1, delay: 0.7 }}
+>
+  Khushal
 </motion.h1>
   
         
