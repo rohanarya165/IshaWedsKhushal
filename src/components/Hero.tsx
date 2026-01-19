@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       className="h-screen bg-cover bg-center relative flex items-center justify-center overflow-hidden"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/hero-bg.jpg')"
+          "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/album13.jpg')"
       }}
     >
       <div className="absolute inset-0 bg-black opacity-20"></div>
