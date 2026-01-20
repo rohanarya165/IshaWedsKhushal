@@ -132,7 +132,7 @@ const Details: React.FC = () => {
             <h3 className="text-2xl font-heading mb-3">When</h3>
             <div className="divider-sm"></div>
             <p className="font-body text-gray-700">Saturday, 8 Feb 2026</p>
-            <p className="font-body text-gray-700 mt-1">4:00 PM - 11:00 PM</p>
+            <p className="font-body text-gray-700 mt-1">07:00 PM</p>
           </motion.div>
 
           <motion.div 
@@ -158,9 +158,10 @@ const Details: React.FC = () => {
             </div>
             <h3 className="text-2xl font-heading mb-3">Schedule</h3>
             <div className="divider-sm"></div>
-            <p className="font-body text-gray-700">Ceremony: 4:00 PM</p>
-            <p className="font-body text-gray-700 mt-1">Cocktail Hour: 5:00 PM</p>
-            <p className="font-body text-gray-700 mt-1">Reception: 6:00 PM</p>
+            <p className="font-body text-gray-700">Haldi: 7 Feb, 11 AM</p>
+            <p className="font-body text-gray-700 mt-1">Sangeet: 7 Feb, 7 PM</p>
+            <p className="font-body text-gray-700 mt-1">Lagan: 8 Feb 11 AM</p>
+            <p className="font-body text-gray-700 mt-1">Reception: 8 Feb 7 PM</p>
           </motion.div>
         </motion.div>
 
