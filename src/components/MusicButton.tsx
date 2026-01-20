@@ -3,7 +3,7 @@ import { FaPlay, FaPause } from 'react-icons/fa';
 
 const MusicButton = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(new Audio('/public/audio/audio.mp4'));
+  const audioRef = useRef(new Audio('/audio/audio.mp4'));
 
   // Auto-play on mount
   useEffect(() => {
