@@ -7,7 +7,7 @@ import Gallery from './components/Gallery';
 import RSVP from './components/RSVP';
 import Registry from './components/Registry';
 import Footer from './components/Footer';
-import MusicButton from './components/MusicButton';
+import WelcomeMusic from './components/WelcomeMusic';
 import './App.css';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <div className="font-sans text-gray-800 overflow-x-hidden">
         {/* <Header /> */}
         <main>
-          <MusicButton/>
+          <WelcomeMusic/>
           <Hero />
           <Details />
           <Gallery />
