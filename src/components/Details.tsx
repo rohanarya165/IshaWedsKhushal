@@ -131,7 +131,7 @@ const Details: React.FC = () => {
             </div>
             <h3 className="text-2xl font-heading mb-3">When</h3>
             <div className="divider-sm"></div>
-            <p className="font-body text-gray-700">Saturday, 8 Feb 2026</p>
+            <p className="font-body text-gray-700">Sunday, 8 Feb 2026</p>
             <p className="font-body text-gray-700 mt-1">07:00 PM</p>
           </motion.div>
 
