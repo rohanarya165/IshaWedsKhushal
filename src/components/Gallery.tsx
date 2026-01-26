@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const images = Array.from({ length: 14 }, (_, i) => ({
+const images = Array.from({ length: 19 }, (_, i) => ({
   src: `/images/album${i + 1}.jpg`,
   alt: `Album photo ${i + 1}`,
 }));
